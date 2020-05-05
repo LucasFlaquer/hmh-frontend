@@ -1,0 +1,88 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "./variables";
+
+// global
+body {
+  margin:0;
+  background-color: #ccc;
+}
+.btn-outline-custom {
+  border-color: $text-color;
+  color: $text-color;
+  outline: none;
+
+  &:hover {
+    background-color: $text-color;
+    border-color: $text-color;
+    color: $dark;
+  }
+}
+//---------------
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+  
+  &__logo {
+    max-width: 80px;
+    display: block;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__nav {
+    flex:0 0 25%;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $text-color;
+      
+    }
+  }
+
+}
+
+
+
+.hero {
+  height:100vh;
+  background-image: url("../assets/banner1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  &__content {
+    position: absolute;
+    bottom: 8%;
+    left: 13.5vw;
+    color: $text-color;
+  }
+  &__title {
+    color: $main-color;
+    font-size: 75px;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    span {
+      display: block;
+      color: #ffffff;
+      font-size: 60px;
+      text-transform: initial;
+    }
+  }
+  .btn-outline-custom {
+    margin-top: 20px;
+  }
+}
