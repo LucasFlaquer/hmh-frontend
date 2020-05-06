@@ -6,6 +6,7 @@
 body {
   margin:0;
   background-color: #ccc;
+  color: $text-color;
 }
 .btn-outline-custom {
   border-color: $text-color;
@@ -20,7 +21,13 @@ body {
 }
 //---------------
 
-
+.section-title {
+  color: $main-color;
+  font-size: 75px;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
 
 .header {
   display: flex;
@@ -56,3 +63,4 @@ body {
 }
 
 @import "./molecules/hero-banner";
+@import "./molecules/about";

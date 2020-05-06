@@ -19,7 +19,20 @@
         <b-button pill variant="outline-primary" class="btn-outline-custom" href="#">Saiba mais</b-button>
       </div>
     </section>
-    
+    <section class="about">
+      <div class="about__content">
+        <h3 class="section-title">
+          Quem somos
+        </h3>
+        <p>
+          HMH Construtora  é  uma empresa familiar,
+          que visa atender a necessidade do cliente 
+          e ajudá-lo na aquisição de um imóveil, 
+          seja  para moradia ou investimento,  
+          indicando o melhor retorno financeiro. 
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 

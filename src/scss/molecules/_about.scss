@@ -1,0 +1,29 @@
+.about {
+  height: 100vh;
+  background-image: url("../assets/banner2.jpg");
+  position: relative;
+  &:before {
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    opacity: .5;
+    display: block;
+  }
+  &__content {
+    position: absolute;
+    bottom: 25%;
+    // bottom: 8%;
+    left: 13.5vw;
+    max-width: 412px;
+    font-size: 22px;
+    z-index: 1;
+    .section-title {
+      font-size: 60px;
+      margin-bottom: 30px;
+    }
+
+  }
+}
