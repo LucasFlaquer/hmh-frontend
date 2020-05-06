@@ -19,6 +19,11 @@ body {
     color: $dark;
   }
 }
+@media (max-width:767px) {
+  section {
+    padding: 15px;
+  }
+}
 //---------------
 
 .section-title {
