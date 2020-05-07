@@ -5,6 +5,8 @@
         <b-col
           v-for="prod in products" :key="prod.id"
           lg="4"
+          md="4"
+          cols="12"
           class="product-list__item"
         >
           <figure>
