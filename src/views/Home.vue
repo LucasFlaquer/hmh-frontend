@@ -33,6 +33,7 @@
         </p>
       </div>
     </section>
+    <ProductList></ProductList>
   </div>
 </template>
 

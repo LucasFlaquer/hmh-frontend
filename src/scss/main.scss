@@ -24,6 +24,9 @@ body {
     padding: 15px;
   }
 }
+
+
+
 //---------------
 
 .section-title {
@@ -49,6 +52,9 @@ body {
   &__logo {
     max-width: 80px;
     display: block;
+    h1 {
+      margin: 0;
+    }
     img {
       max-width: 100%;
     }
@@ -66,6 +72,17 @@ body {
   }
 
 }
+@media(max-width:767px) {
+  .header {
+    &__logo {
+      max-width: 60px;
+    }
+    &__nav {
+      flex-basis: 50%;
+    }
+  }
+}
 
 @import "./molecules/hero-banner";
 @import "./molecules/about";
+@import "./molecules/product-list";
