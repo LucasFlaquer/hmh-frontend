@@ -5,7 +5,7 @@
 // global
 body {
   margin:0;
-  background-color: #ccc;
+  background-color: #000;
   color: $text-color;
 }
 .btn-outline-custom {
@@ -86,3 +86,4 @@ body {
 @import "./molecules/hero-banner";
 @import "./molecules/about";
 @import "./molecules/product-list";
+@import "./molecules/contact";
