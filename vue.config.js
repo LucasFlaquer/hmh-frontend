@@ -6,7 +6,6 @@ module.exports = {
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/hmh-frontend/'
-    : '/'
+  //production--->/publicPath: '/hwh/'
+  publicPath:''
 };
