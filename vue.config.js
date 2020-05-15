@@ -6,6 +6,6 @@ module.exports = {
       }
     }
   },
-  //production--->/publicPath: '/hwh/'
+  //publicPath: '/hwh/'
   publicPath:''
 };

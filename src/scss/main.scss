@@ -3,6 +3,9 @@
 @import "./variables";
 
 // global
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin:0;
   background-color: #000;
@@ -18,6 +21,16 @@ body {
     border-color: $text-color;
     color: $dark;
   }
+}
+.btn-form {
+  padding: 10px 12px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $main-color;
+  font-weight: bold;
+  color: $text-color;
 }
 @media (max-width:767px) {
   section {
