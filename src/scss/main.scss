@@ -106,6 +106,46 @@ body {
   }
 }
 
+.footer {
+  background-color: #fff;
+  &__title {
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .link {
+    display: block;
+    
+    &:hover {
+      img {
+        transform: scale(1);
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .developer {
+    background-color: #000;
+    color: $main-color;
+    padding:3px 9px;
+    p {
+      font-size: 14px;
+      margin: 0;
+      text-align: right;
+      a {
+        color: $main-color;
+        transition: color .2s;
+        &:hover {
+          color: $text-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
 @import "./molecules/hero-banner";
 @import "./molecules/about";
 @import "./molecules/product-list";

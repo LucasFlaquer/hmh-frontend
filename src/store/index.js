@@ -9,7 +9,7 @@ export default new Vuex.Store({
         id:1,
         slug:'terreno',
         title:'Terreno + Obra',
-        description: 'Terreno + obra - Aqui na HMH você pode escolher projetos pré-estabelecidos pelo nosso arquiteto ou personalizar em conjunto com a gente o seu próprio projeto! ',
+        description: 'Aqui na HMH você pode escolher projetos pré-estabelecidos pelo nosso arquiteto ou personalizar em conjunto com a gente o seu próprio projeto! ',
         galery: [
           {
             id:1,

@@ -3,7 +3,7 @@
     <header class="header container">
       <a href="#" class="header__logo">
         <h1>
-          <img src="../assets/logo-hmh.jpeg" alt="logo">
+          <img src="../assets/logo-hmh.png" alt="logo">
         </h1>
       </a>
       <nav class="header__nav">
@@ -36,17 +36,17 @@
     </section>
     
     <FormContact id="contacts"/>
-    <footer class="footer mt-5">
-      <b-container>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium consequatur laborum dolorem quis est molestias repellat esse fuga odio, corrupti facere amet deserunt corporis, doloremque voluptatem perferendis veritatis quo! Repellat quae sint modi in quaerat, aliquid eveniet beatae itaque, totam sed corporis molestias dignissimos reiciendis laborum! Obcaecati, velit labore recusandae veritatis quibusdam repellat? Sit quod soluta est corrupti numquam placeat, blanditiis sequi a distinctio voluptatem veritatis molestias cupiditate. Provident pariatur error aliquid non fugit perspiciatis iste obcaecati nihil asperiores consectetur beatae eaque, enim, tempore inventore possimus quidem qui dolorem quo consequatur harum repellendus. Animi aspernatur architecto molestiae quia sapiente voluptates?
-      </b-container>
-    </footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted() {
+     let section=this.$router.currentRoute.hash.replace("#", "");
+      if (section)
+        this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+  }
 }
 </script>
 <style lang="scss">
