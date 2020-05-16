@@ -15,11 +15,8 @@
     <div class="product">
       <b-row>
         <b-col>
-           <swiper class="swiper">
-            <swiper-slide v-for="item in product.galery" :key="item.id">
-              <img :src="intem.image" alt="" />
-              <p>{{ item.nome }}</p>
-            </swiper-slide>
+          <swiper ref="mySwiper">
+            <swiper-slide>Slide1</swiper-slide>
           </swiper>
         </b-col>
         <b-col>
@@ -35,10 +32,20 @@ import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
   export default {
     name:'ProductDetail',
+    data() {
+      return {
+      }
+    },
     components: {
-    Swiper,
-    SwiperSlide
-  },
+      Swiper,
+      SwiperSlide
+    },
+    computed: {
+      product() {
+        return this.$store.getters.getProductBySlug(this.$route.params.slug)
+
+      }
+    }
   }
 </script>
 

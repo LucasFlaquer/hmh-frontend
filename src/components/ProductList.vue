@@ -10,11 +10,11 @@
           class="product-list__item"
         >
           <figure>
-            <img src="../assets/prod.jpg" alt="">
+            <img :src="prod.galery[0].path" alt="">
           </figure>
           <h3 class="product-list__title">{{prod.title}}</h3>
           <p>{{prod.description}}</p>
-          <a href="#" class="btn btn-outline btn-outline-custom">saiba mais</a>
+          <router-link :to="{name:'ProductDetail', params:{slug:prod.slug}}" class="btn btn-outline btn-outline-custom">Saiba Mais</router-link>
         </b-col>
       </b-row>
     </b-container>
