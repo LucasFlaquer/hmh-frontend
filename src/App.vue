@@ -7,7 +7,7 @@
         <b-row>
           <b-col
             lg="2"
-            cols="4"
+            cols="6"
             v-for="parceiro in parceiros" 
             :key="parceiro.id">
             <a :href="parceiro.url" target="_blank" class="link">

@@ -1,16 +1,18 @@
 <template>
   <div class="home">
-    <header class="header container">
-      <a href="#" class="header__logo">
-        <h1>
-          <img src="../assets/logo-hmh.png" alt="logo">
-        </h1>
-      </a>
-      <nav class="header__nav">
-        <a href="#projects">Projetos</a>
-        <a href="#about">Sobre</a>
-        <a href="#contacts">Contato</a>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="header__logo">
+          <h1>
+            <img src="../assets/logo-hmh.png" alt="logo">
+          </h1>
+        </a>
+        <nav class="header__nav">
+          <a href="#projects">Projetos</a>
+          <a href="#about">Sobre</a>
+          <a href="#contacts">Contato</a>
+        </nav>
+      </div>
     </header>
     <section class="hero">
       <div class="hero__content">
