@@ -4,10 +4,10 @@
       <b-row>
         <b-col md="7">
           <h3 class="section-title"><span>Projetos</span>Personalizados</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, totam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, totam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, totam!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, totam!</p>
+          <p>Atendimento especializado e personalizado.</p>
+          <p>Condições especiais.</p>
+          <p>Simulação sem compromisso.</p>
+          <p>Parceiros exclusivos com o melhor preço.</p>
         </b-col>
         <b-col md="5">
           <h3 class="text-center">Entre em contato</h3>

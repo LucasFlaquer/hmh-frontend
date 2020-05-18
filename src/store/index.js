@@ -9,6 +9,7 @@ export default new Vuex.Store({
         id:1,
         slug:'terreno',
         title:'Terreno + Obra',
+        subtitle:'Escolha um dos projetos pré-estabelecidos ou personalize um em conjunto com nosso arquiteto.',
         description: 'Aqui na HMH você pode escolher projetos pré-estabelecidos pelo nosso arquiteto ou personalizar em conjunto com a gente o seu próprio projeto! ',
         galery: [
           {
@@ -33,6 +34,7 @@ export default new Vuex.Store({
         id:2,
         slug:'sobrado',
         title:'Sobrados',
+        subtitle:'Conheça o sobrado totalmente planejado e executado para você e sua família!',
         description: 'Aqui na HMH você tem a oportunidade de morar em um sobrado totalmente planejado e executado para você e sua família!',
         galery:[
           {
@@ -41,31 +43,27 @@ export default new Vuex.Store({
           },
           {
             id:2,
-            path:require("@/assets/projeto2/img2.jpeg")
+            path:require("@/assets/projeto2/img2.png")
           },
           {
             id:3,
-            path:require("@/assets/projeto2/img3.jpeg")
+            path:require("@/assets/projeto2/img3.png")
           },
           {
             id:4,
-            path:require("@/assets/projeto2/img4.jpeg")
+            path:require("@/assets/projeto2/img4.png")
           },
           {
             id:5,
-            path:require("@/assets/projeto2/img5.jpeg")
+            path:require("@/assets/projeto2/img5.png")
           },
           {
             id:6,
-            path:require("@/assets/projeto2/img6.jpeg")
+            path:require("@/assets/projeto2/img6.png")
           },
           {
             id:7,
-            path:require("@/assets/projeto2/img7.jpeg")
-          },
-          {
-            id:8,
-            path:require("@/assets/projeto2/img8.jpeg")
+            path:require("@/assets/projeto2/img7.png")
           }
         ]
       }

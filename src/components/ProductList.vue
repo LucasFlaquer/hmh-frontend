@@ -13,7 +13,7 @@
             <img :src="prod.galery[0].path" alt="">
           </figure>
           <h3 class="product-list__title">{{prod.title}}</h3>
-          <p>{{prod.description}}</p>
+          <p class="product-list__subtitle">{{prod.subtitle}}</p>
           <router-link :to="{name:'ProductDetail', params:{slug:prod.slug}}" class="btn btn-outline btn-outline-custom">Saiba Mais</router-link>
         </b-col>
       </b-row>

@@ -18,6 +18,9 @@
     text-transform: capitalize;
     color: $main-color;
   }
+  &__subtitle {
+    min-height: 72px;
+  }
   .btn-outline-custom {
     margin-top: 30px;
     border-radius: 50px;

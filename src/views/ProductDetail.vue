@@ -1,7 +1,8 @@
 <template>
   <div class="detail-product" id="detail">
-    <header class="header container">
-      <router-link to="/" class="header__logo">
+    <header class="header">
+      <b-container>
+        <router-link to="/" class="header__logo">
         <h1>
           <img src="../assets/logo-hmh.png" alt="logo">
         </h1>
@@ -12,6 +13,7 @@
         <router-link to="#contacts">Contato</router-link>
         
       </nav>
+      </b-container>
     </header>
     <div class="product container">
       <b-row>
