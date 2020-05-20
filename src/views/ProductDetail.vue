@@ -47,7 +47,11 @@ import 'swiper/css/swiper.css'
         swiperOption: {
           pagination: {
             el: '.swiper-pagination'
-          }
+          },
+          autoplay: {
+            delay: 3500,
+            disableOnInteraction: false
+          },
         }
       }
     },

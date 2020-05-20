@@ -18,14 +18,18 @@ export default new Vuex.Store({
           },
           {
             id:2,
-            path:require("@/assets/projeto1/modelo2.jpg")
+            path:require("@/assets/projeto1/modelo4.png")
           },
           {
             id:3,
-            path:require("@/assets/projeto1/modelo3.jpg")
+            path:require("@/assets/projeto1/modelo2.jpg")
           },
           {
             id:4,
+            path:require("@/assets/projeto1/modelo3.jpg")
+          },
+          {
+            id:5,
             path:require("@/assets/projeto1/planta_baixa_mod3.jpg")
           },
         ]
@@ -39,30 +43,34 @@ export default new Vuex.Store({
         galery:[
           {
             id:1,
-            path:require("@/assets/projeto2/img1.jpg")
-          },
-          {
-            id:2,
-            path:require("@/assets/projeto2/img2.png")
-          },
-          {
-            id:3,
-            path:require("@/assets/projeto2/img3.png")
-          },
-          {
-            id:4,
-            path:require("@/assets/projeto2/img4.png")
-          },
-          {
-            id:5,
             path:require("@/assets/projeto2/img5.png")
           },
           {
+            id:2,
+            path:require("@/assets/projeto2/img8.jpg")
+          },
+          {
+            id:3,
+            path:require("@/assets/projeto2/img1.jpg")
+          },
+          {
+            id:4,
+            path:require("@/assets/projeto2/img3.png")
+          },
+          {
+            id:5,
+            path:require("@/assets/projeto2/img4.png")
+          },
+          {
             id:6,
-            path:require("@/assets/projeto2/img6.png")
+            path:require("@/assets/projeto2/img2.png")
           },
           {
             id:7,
+            path:require("@/assets/projeto2/img6.png")
+          },
+          {
+            id:8,
             path:require("@/assets/projeto2/img7.png")
           }
         ]

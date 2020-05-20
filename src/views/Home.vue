@@ -18,7 +18,7 @@
       <div class="hero__content">
         <h3 class="hero__title"><span>Projetos</span> Personalizados</h3>
         <p>A construtora HMH personaliza o imóvel pelo seu gosto</p>
-        <b-button pill variant="outline-primary" class="btn-outline-custom" href="#about">Saiba mais</b-button>
+        <b-button pill variant="outline-primary" class="btn-outline-custom" href="#projects">Saiba mais</b-button>
       </div>
     </section>
     <ProductList id="projects"/>
@@ -28,7 +28,7 @@
           Quem somos
         </h3>
         <p>
-          HMH Construtora trata-se de uma empresa familiar que ajuda no processo de escolha de imóveis para moradia ou para estratégias de investimentos imobiliários.
+          HMH Construtora trata-se de uma empresa que ajuda no processo de escolha de imóveis para moradia ou para estratégias de investimentos imobiliários.
         </p>
       </div>
     </section>

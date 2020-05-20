@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
               <label for="phone">Telefone</label>
-              <the-mask :mask="['(##) ####-####', '(##) #####-####']" class="form-control" v-model="phone"/>
+              <the-mask :mask="['(##) ####-####', '(##) #####-####']" class="form-control" v-model="phone" required/>
             </div>
             <div class="form-group">
               <label for="">Qual tipo de imóvel procura?</label>
@@ -43,6 +43,7 @@
 </template>
 
 <script>
+import axios from 'axios'
   export default {
     name: 'FormContact',
     data() {
@@ -64,22 +65,34 @@
           this.validation(form)
       },
       async send() {
-        const data = {
-          name: this.name,
-          email:this.email,
-          phone: this.phone,
-          description:this.description
-        }
+        const data = new FormData();
+        data.append('name', this.name);
+        data.append('email', this.email);
+        data.append('phone', this.phone);
+        data.append('description', this.description);       
         this.loading = true
-        await setTimeout(()=>{
+        
+        const response = await axios.post('/api/enviar.php', data)
+
+        if(response.data.email) {
           this.loading = false
+          alert('Obrigado! Em breve entraremos em contato')
           console.log(data)
           this.name = ''
           this.email = ''
           this.phone = ''
           this.description = ''
-          alert('Contato recebido')
-         }, 3000)
+        } else {
+          this.loading = false
+          alert('houve um erro por favor tente mais tarde')
+          console.log(data)
+          this.name = ''
+          this.email = ''
+          this.phone = ''
+          this.description = ''
+        }
+
+
       },
       validation(form) {
         let campos = form.querySelectorAll('.form-control, .form-control-file')
