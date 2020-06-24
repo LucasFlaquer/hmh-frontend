@@ -30,8 +30,16 @@ export default new Vuex.Store({
           },
           {
             id:5,
-            path:require("@/assets/projeto1/planta_baixa_mod3.jpg")
+            path:require("@/assets/projeto1/planta_baixa_01.jpeg")
           },
+          {
+            id:6,
+            path:require("@/assets/projeto1/planta_baixa_02.jpeg")
+          },
+          {
+            id:7,
+            path:require("@/assets/projeto1/planta_baixa_03.jpeg")
+          }
         ]
       },
       {
